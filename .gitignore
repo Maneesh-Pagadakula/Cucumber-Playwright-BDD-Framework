@@ -56,6 +56,3 @@ target/
 # IDE-specific files
 *.swp
 *~.nib
-
-#Reports Folder
-/Reports/*
