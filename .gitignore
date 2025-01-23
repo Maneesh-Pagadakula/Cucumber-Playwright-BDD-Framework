@@ -23,10 +23,20 @@
 hs_err_pid*
 replay_pid*
 
-# Eclipse project files
-.project
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+Reports/
+
+### Eclipse ###
+.apt_generated
 .classpath
-.settings/
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
 # Eclipse local configuration
 *.launch
